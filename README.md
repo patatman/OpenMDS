@@ -40,7 +40,7 @@ This is all executed on Ubuntu 15.10, and has not been tested on other Distro's
 - Basic knowledge
 
 
-<h3> Installations </h3>
+<h3> Installation </h3>
 
 On a clean Ubuntu 15.10 installation get the script:
 ```Bash
