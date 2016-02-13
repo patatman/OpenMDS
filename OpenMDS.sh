@@ -13,6 +13,8 @@ EOF
 debconf-apt-progress -- apt-get install openssh-server software-properties-common -y
 debconf-apt-progress -- add-apt-repository ppa:jcfp/ppa -y
 debconf-apt-progress -- add-apt-repository ppa:qbittorrent-team/qbittorrent-stable
+debconf-apt-progress -- add-apt-repository 'deb http://apt.mopidy.com/ jessie main contrib non-free'
+debconf-apt-progress -- add-apt-repository 'deb-src http://apt.mopidy.com/ jessie main contrib non-free'
 debconf-apt-progress -- apt-get update -y
 debconf-apt-progress -- apt-get upgrade -y
 
@@ -142,6 +144,9 @@ chmod +x /etc/init.d/htpcmanager
 update-rc.d htpcmanager defaults
 service htpcmanager start
 
+#install mopidy
+debconf-apt-progress -- apt-get install mopidy mopidy-spotify mopidy-spotify-tunigo mopidy-tunein mopidy-youtube -y
+
 git clone https://github.com/drzoidberg33/plexpy.git /opt/plexpy
 chown -R mds:mds /opt/plexpy
 cat > /etc/default/plexpy<<EOF
@@ -191,7 +196,8 @@ debconf-apt-progress -- apt-get upgrade -y
 
 # service couchpotato stop
 
-
+#run mopidy config
+sh ./mpdconfig.sh
 
 reboot
 
