@@ -199,9 +199,11 @@ debconf-apt-progress -- apt-get upgrade -y
 # service couchpotato stop
 
 #run mopidy config
-sh ./mpdconfig.sh
+sh ./Configs/mpdconfig.sh
 
-reboot
+echo "Please reboot to complete the installation"
+
+exit 1
 
 # start OpenMDS
 # qbittorrent-nox
