@@ -23,14 +23,14 @@ Think
 - Webmin
 - Etc.
 
-<h2>Minimal system requirements:</h2>
+<h3>Minimal system requirements:</h3>
 
 - 2gb DDR3 Ram
 - 20 GB Diskspace
 - Intel Core 2 Duo (2,4 GHz or more)
 - Common sense
 
-<h2> Recommended system requirement:</h2>
+<h3> Recommended system requirement:</h3>
 
 - 4gb Ram DDR3
 - 30 GB Diskspace
