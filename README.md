@@ -38,3 +38,24 @@ This is all executed on Ubuntu 15.10, and has not been tested on other Distro's
 - 30 GB Diskspace
 - Intel Core i3 (3,2 GHz or more)
 - Basic knowledge
+
+
+<h3> Installations </h3>
+
+On a clean Ubuntu 15.10 installation get the script:
+```Bash
+$ wget https://raw.githubusercontent.com/patatman/OpenMDS/master/OpenMDS.sh
+```
+
+Then make the script executable
+```Bash
+$ chmod +x OpenMDS.sh
+```
+
+Execute the script and wait, this can take up to 30 min.
+```bash
+$ ./OpenMDS.sh
+```
+
+If done, the system will reboot and you will have a fully working MDS.
+
