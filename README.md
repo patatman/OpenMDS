@@ -22,3 +22,17 @@ Think
 - (L)AMP
 - Webmin
 - Etc.
+
+<h2>Minimal system requirements:</h2>
+
+- 2gb DDR3 Ram
+- 20 GB Diskspace
+- Intel Core 2 Duo (2,4 GHz or more)
+- Common sense
+
+<h2> Recommended system requirement:</h2>
+
+- 4gb Ram DDR3
+- 30 GB Diskspace
+- Intel Core i3 (3,2 GHz or more)
+- Basic knowledge
