@@ -23,6 +23,8 @@ Think
 - Webmin
 - Etc.
 
+This is all executed on Ubuntu 15.10, and has not been tested on other Distro's
+
 <h3>Minimal system requirements:</h3>
 
 - 2gb DDR3 Ram
