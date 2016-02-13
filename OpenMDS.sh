@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# OpenMDS 0.1
+# OpenMDS 0.2
 #
 
 # install prerequisites
