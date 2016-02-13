@@ -1,7 +1,9 @@
 #!/bin/bash
 #
-# OpenMDS 0.2
+# OpenMDS 0.3
 #
+# Edited by Patatman
+# https://github.com/patatman
 
 # install prerequisites
 sed -i 's/ubuntu/OpenMDS/g' /etc/hosts
